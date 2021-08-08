@@ -1,3 +1,4 @@
+
 /* background-color: rgb(255, 247, 247); */
 header {
   width: 100%;
@@ -139,17 +140,11 @@ header {
 
 .main-banner{
     width: 100%;
-    height: 120px;
+    height: 500px;
     background-color: rgb(255, 247, 247);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-.main-banner-left{
-    flex-basis: 40%;
-}
-
-.main-banner-right{
-    flex-basis: 40%;
+   
 }
