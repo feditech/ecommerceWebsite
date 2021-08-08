@@ -138,3 +138,15 @@ header {
 .cart{
     margin-right: 20px;
 }
+
+
+.main-banner{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 247, 247);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
