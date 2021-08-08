@@ -1,95 +1,125 @@
-
 /* background-color: rgb(255, 247, 247); */
-header{
-   
-    width: 100%;
-    
-    
+header {
+  width: 100%;
+
+  display: flex;
 }
 
-.nav1{
-    background-color: rgb(255, 247, 247);
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+.nav1 {
+  background-color: rgb(255, 247, 247);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.nav1 .left{
-    flex-basis: 50%;
-
+.nav1 .left {
+  flex-basis: 50%;
 }
-.nav1 .left a .mailbox{
-    margin: 0 10px 0 0;
-    cursor: pointer;
-
+.nav1 .left a .mailbox {
+  margin: 0 10px 0 0;
+  cursor: pointer;
 }
-.nav1 .left .phone{
-    color: green;
-    margin: 0 10px 0 0;
-
+.nav1 .left .phone {
+  color: green;
+  margin: 0 10px 0 0;
 }
 
-.nav1 .right{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; 
-
+.nav1 .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.nav1 .right .links{
-    margin: 0 5px;
+.nav1 .right .links {
+  margin: 0 5px;
 }
 
-.nav1 .right .links >a{
-    margin: 0 5px;
+.nav1 .right .links > a {
+  margin: 0 5px;
 }
 
-.nav1 .right .links a i{
+.nav1 .right .links a i {
+  transition: 0.4s ease-in-out;
+}
+
+.nav1 .right .links a i:hover {
+  transform: rotate(360deg);
+}
+
+.nav1 .right .lang {
+  margin: 0 10px;
+}
+.nav1 .right .lang .lang-select {
+  background-color: rgb(255, 247, 247);
+  border: 0;
+}
+
+.nav1 .right .login a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.nav2 {
+  background-color: rgb(93, 180, 180);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+.nav2 .logo{
+    margin-left: 10px ;
+}
+
+.nav2 .search {
+    margin-left: 15px;
+  width: 35%;
+  height: 50px ;
+
+}
+.nav2 .search input {
+    height: 100%;
+  width: 92%;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+.nav2 .search i {
+    height: 100%;
+    font-size: 22px;
+ 
+}
+
+
+.nav2 .navbar ul {
+  margin: 0 auto;
+  display: inline;
+  list-style-type: none;
+}
+
+.nav2 .navbar ul > li {
+  display: inline;
+  margin: 0 5px;
+  
+}
+
+.nav2 .navbar ul > li a {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+}
+
+.nav2 .navbar ul li a:hover {
     transition: 0.4s ease-in-out;
 }
 
-.nav1 .right .links a i:hover{
-    transform: rotate(360deg);
+
+.cart{
+    margin-right: 20px;
 }
-
-
-
-
-.nav1 .right .lang{
-    margin: 0 10px;
-}
-.nav1 .right .lang .lang-select{
-    background-color: rgb(255, 247, 247);
-    border: 0;
-}
-
-
-
-
-
-
-.nav1 .right .login a{
-    text-decoration: none;
-    color: darkcyan;
-}
-
-
-.nav2{
-    background-color: darkcyan ;
-    height: 80px;
-}
-
-
-
-
-
-
-
-
-
-
-
