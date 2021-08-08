@@ -79,7 +79,7 @@ header {
 
 .nav2 .search {
     margin-left: 15px;
-  width: 35%;
+  width: 30%;
   height: 50px ;
 
 }
@@ -95,10 +95,14 @@ header {
     font-size: 22px;
  
 }
-
+.nav2 .navbar {
+    padding: 0;
+  }
+  
 
 .nav2 .navbar ul {
   margin: 0 auto;
+  padding: 0;
   display: inline;
   list-style-type: none;
 }
@@ -112,13 +116,24 @@ header {
 .nav2 .navbar ul > li a {
   text-decoration: none;
   color: white;
-  font-size: 21px;
+  font-size: 23px;
 }
-
-.nav2 .navbar ul li a:hover {
-    transition: 0.4s ease-in-out;
+.nav2 .navbar ul > li .products-dropdown{
+ background-color: transparent;
+ color: white;
+ font-size: 23px;
+ border: none;
 }
-
+.nav2 .navbar ul > li .products-dropdown option{
+    background-color: rgb(255, 247, 247);
+    color: darkcyan;
+    font-size: 23px;
+    
+   }
+   .nav2 .navbar ul > li .products-dropdown option:active{
+    outline: none;
+    
+   }
 
 .cart{
     margin-right: 20px;
