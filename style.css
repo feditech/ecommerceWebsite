@@ -15,9 +15,6 @@ header {
   flex-wrap: wrap;
 }
 
-.nav1 .left {
-  flex-basis: 50%;
-}
 .nav1 .left a .mailbox {
   margin: 0 10px 0 0;
   cursor: pointer;
@@ -147,6 +144,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    flex-wrap: wrap;
+}
+.main-banner-left{
+    flex-basis: 40%;
 }
 
+.main-banner-right{
+    flex-basis: 40%;
+}
