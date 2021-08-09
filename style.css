@@ -139,7 +139,8 @@ header {
 
 
 .main-banner{
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     height: 500px;
     background-color: rgb(255, 247, 247);
     display: flex;
@@ -147,4 +148,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
    
+}
+.carousel-item{
+    background-color: rgb(255, 247, 247); 
 }
